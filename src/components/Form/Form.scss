@@ -1,0 +1,125 @@
+.form{
+    background: #FFFFFF;
+    box-shadow: 3px 4px 21px #D0E4EF;
+    border-radius: 16px;
+    width: 1190px;
+    height: 328px;
+    margin-left: 88px;
+    display: grid;
+}
+
+.labelText{
+    width: 184px;
+    height: 24px;
+    margin-left: 32px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    color: #102544;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.submitReady{
+    background: #17C873 !important;
+}
+
+input, .select{
+    height: 40px;
+    border: 1px solid #C7DAE4;
+    border-radius: 8px;
+    width: 378px;
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #102544;
+    padding: 0;
+}
+
+.select:focus{
+    border: 1px solid #C7DAE4;
+    outline: none; 
+}
+
+input[type=text]:focus {
+    border: 1px solid #C7DAE4;
+    outline: none;
+  }
+
+.weightInput{
+    padding-left: 16px!important;
+    width: 360px;
+    font-size: 16px;
+}
+
+.select__single-value{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #102544;
+    cursor: pointer;
+}
+
+.select__control{
+    padding-left: 8px;
+    border-radius: 8px!important;
+}
+
+.select__value-container{
+    height: 40px;
+    width: 376px;
+    border-radius: 8px;
+    cursor: text;
+}
+
+.select__indicator{
+    padding-right: 17px!important;
+    filter: invert(55%) sepia(67%) saturate(2587%) hue-rotate(113deg) brightness(105%) contrast(82%);
+    cursor: pointer;
+}
+
+.select__menu{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #102544;
+    padding-left: 8px;
+}
+
+.gramm{
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 356px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #85A0AE;
+}
+
+input[type=submit]{
+    margin-left: 32px;
+    border-radius: 32px;
+    width:184px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 40px;
+    background: #C7DAE4;
+}
+
+.chevron{
+    margin: 0;
+    padding: 0;
+    margin-right: 17px;
+    margin-bottom: 23px;
+}

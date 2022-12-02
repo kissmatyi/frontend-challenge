@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import Form from './components/Form/Form';
 import './App.css';
+import Megrendelesek from './components/Megrendelesek/Megrendelesek';
+import {useState} from 'react';
 
 function App() {
+  const [cards, setCards] = useState([]);
+  const [editedCard, setEditedCards] = useState({});
+  const [isEditing, setIsEditing] = useState(false);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='titleText urlap'>Megrendelő űrlap</h1>
+      <Form 
+        cards={cards} 
+        setCards={setCards} 
+        editedCard={editedCard} 
+        isEditing={isEditing} 
+        setIsEditing={setIsEditing} 
+      />
+      <h1 className='titleText megrendeles'>Megrendelések</h1>
+      <Megrendelesek 
+        cards={cards} 
+        setCards={setCards} 
+        setEditedCards={setEditedCards} 
+        setIsEditing={setIsEditing}
+      />
     </div>
   );
 }

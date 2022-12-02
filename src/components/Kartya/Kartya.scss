@@ -1,0 +1,62 @@
+.kartya{
+    background: #FFFFFF;
+    box-shadow: 3px 4px 21px #D0E4EF;
+    border-radius: 16px;
+    width: 1190px;
+    height: 120px;
+    margin-left: 88px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.date{
+    margin-left: 32px;
+    width: 144px;
+}
+
+.dest{
+    margin-left: 129px;
+    width: 264px;
+}
+
+.weight{
+    margin-left: 114px;
+    width: 144px;
+}
+
+.kuka{
+    margin-left: 231.49px;
+    width: 14px;
+    filter: invert(55%) sepia(67%) saturate(2587%) hue-rotate(113deg) brightness(105%) contrast(82%);
+    cursor: pointer;
+}
+
+.toll{
+    margin-left: 64.49px;
+    width: 14px;
+    filter: invert(55%) sepia(67%) saturate(2587%) hue-rotate(113deg) brightness(105%) contrast(82%);
+    cursor: pointer;
+}
+
+.header{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.body{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.weight > .body::after{
+    content: " gramm";
+}
